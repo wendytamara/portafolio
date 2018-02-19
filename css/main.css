@@ -1,0 +1,358 @@
+body {
+    background-color: #000;
+    font-family: Open Sans;
+    font-size: 0.8rem;
+}
+
+#particles-js {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: #000;
+  }
+
+p {
+    font-size: 1.5rem;
+}
+
+nav {
+    position: fixed !important;
+    width: 100%;
+    font-style: italic;
+    z-index: 10;
+}
+
+nav img {
+    height: 25%;
+    width: 25%;
+}
+
+a {
+    text-decoration: none;
+    margin-right: 10px;
+    transition: font-size 0.5s;
+    transition-timing-function: cubic-bezier(.07,1.41,.82,1.41);
+    font-size: 1.5rem;
+}
+
+a:hover {
+    font-weight: bold;
+    font-size: 2rem;
+    background-color: black !important;
+    transition: 5s;
+}
+
+ul {
+    float: right;
+    margin-top: 15px;
+}
+
+header {
+    padding: 1% 0%;
+}
+
+.bg-image {
+    height: 90vh;
+    margin-top: 10%;
+    padding: 5%;
+    position: relative;
+}
+
+.bg-purple {
+    position: relative;
+    background-color: #000;
+    border-bottom: 1px solid #F7B96A;
+}
+
+
+h1 {
+    font-size: 5rem;
+    margin-bottom: 15px;
+}
+
+#fotos {
+    margin: 1.5% 0;
+}
+
+.img-3 {
+    width: 100%;
+    height: 100%;
+}
+
+.bg-flowers-text {
+    margin-top: -3px;
+    padding: 15px;
+}
+
+.col-4 {
+    transition:.2s ease-in-out;
+}
+
+.col-4:hover {
+    transform: scale(1.1);
+}
+
+
+.col-7 img {
+    width: 100%;
+    height: auto;
+}
+
+.box-article {
+    padding: 20px;
+    margin-top: -4px;
+}
+
+.mg {
+    margin: 10px 0;
+}
+
+iframe {
+    width: 100%;
+}
+
+
+
+.about-me h3 {
+    padding: 10px;
+}
+
+.about-me img {
+    width: 100%;
+    height: auto;
+}
+
+.main-p {
+    padding: 10px;
+}
+
+footer {
+    padding: 3%;
+    margin-top: 30px;
+}
+
+.logo-wen {
+    display: inline-block;
+    font-size: 4em;
+    cursor: pointer;
+}
+
+.navbar-horizontal {
+  /*display: inline-flex;*/
+  /*width: 100%;*/
+}
+
+.icon-bar {
+  background-color: #fff;
+  height: 4px !important;
+  margin-top: 2px !important;
+
+}
+
+.content {
+  margin: auto 10px !important;
+}
+
+.img-perfil {
+  border-radius: 30%;
+}
+
+
+.max-vh {
+  height: 95vh;
+}
+
+.img-hability {
+  border-radius: 10%;
+  opacity: 0.5;
+  width: 200px;
+
+}
+
+.margen {
+  padding-bottom: 30px;
+}
+
+.contenedor {
+  height: 100vh;
+  background-color: white !important;
+  opacity: 0.5;
+}
+
+.box {
+  padding: 50px 0px;
+
+}
+
+.text-white {
+	color: #fff !important;
+
+}
+
+.size-carrusel {
+  width: 250px;
+}
+
+
+.text-right {
+	text-align: right;
+}
+
+.text-orange {
+    color: #F7B96A;
+}
+
+.courgette {
+    font-family: Courgette;
+}
+
+.italics {
+    font-style: italic;
+}
+
+
+.text-center {
+	text-align: center;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.courgette {
+    font-family: Courgette;
+}
+
+.italics {
+    font-style: italic;
+}
+
+.bg-purple {
+    background-color: #000;
+}
+
+.strong {
+    font-weight: bold;
+}
+
+.bg-h1 {
+  transform: translateY(120%);
+}
+
+
+
+/* Responsive */
+
+@media(min-width: 320px) and (max-width: 768px) {
+
+  .bg-h1 {
+    transform: translateY(50%) !important;
+  }
+
+ .transform {
+     transform: translateY(20%);
+ }
+
+  .about-me img{
+    width: 70%;
+    height: auto;
+  }
+    p {
+        font-size: 1.2rem;
+    }
+
+    nav img {
+        height: 30%;
+        width: 50%;
+    }
+
+    .box-article {
+        padding: 10px;
+        margin-top: -4px;
+    }
+
+    .col-4 {
+        transition:none;
+    }
+
+    .col-4:hover {
+        transform: none;
+    }
+
+
+    a {
+        text-decoration: none;
+        margin-right: 10px;
+        transition: none;
+        font-size: 1.5rem;
+    }
+
+    /* a:hover {
+        font-size: 1.5rem;
+        font-weight: normal;
+        background-color: black;
+    } */
+
+    .desktop-nav {
+        display: none;
+    }
+
+    #btn-menu {
+	display: none;
+}
+
+#btn-menu:checked ~ .menu {
+	transform: translateX(0%);
+}
+
+
+.text-right {
+	text-align: right;
+}
+
+
+
+/*.text-orange {
+    color: #F7B96A;
+}*/
+
+.courgette {
+    font-family: Courgette;
+}
+
+.italics {
+    font-style: italic;
+}
+
+
+.strong {
+    font-weight: bold;
+}
+
+.menu {
+	position: absolute;
+	top: 65%;
+	right: 0;
+	width: 100%;
+	transform: translateX(100%);
+	transition: all 0.3s;
+	text-align: left;
+}
+
+.menu ul {
+	background-color: #1C1821;
+	display: flex;
+	list-style-type: none;
+	flex-direction: column;
+	right: 0;
+}
+
+.menu a {
+	display: block;
+	padding: 10px;
+	color: #fff;
+	text-decoration: none;
+  font-size: 1.1rem;
+}
+
+}

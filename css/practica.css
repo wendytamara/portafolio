@@ -1,0 +1,36 @@
+
+.img-hover-text {
+    /* width: 50%; */
+    margin: auto;
+    position: relative;
+    padding: 5px 50px;
+  }
+  
+  .img-hover-text img {
+    width: 100%;
+    transition: .5s;
+  }
+  
+  .img-hover-text figcaption {
+    position: absolute;
+    width: 80%;
+    background-color: #fff;
+    bottom: 10%;
+    left: 10%;
+    padding: 10px; 
+    box-sizing: border-box;
+    opacity: 0;
+    border-radius: 10px;
+    transition: .5s;
+  }
+  
+  .img-hover-text:hover figcaption {
+    opacity: 1;
+  }
+  
+  .img-hover-text:hover img {
+    filter: brightness(70%);
+  }
+
+
+  

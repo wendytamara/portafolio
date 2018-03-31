@@ -224,6 +224,6 @@ footer p {
 
 .color-contactme {
   font-size: 1.3em;
-  color: #868686;
+  color: #868686 !important;
   line-height: 1.7;
 }

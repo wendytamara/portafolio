@@ -188,10 +188,10 @@ ul {
 }
 
 .herramientas {
-  font-family: 'Arapey', serif;
+  /* font-family: 'Arapey', serif; */
   margin-bottom: 50px;
-  border-bottom: 2px solid aqua;
-  display: inline-block;
+  /* border-bottom: 2px solid aqua;
+  display: inline-block; */
 }
 
 .style {
@@ -213,5 +213,17 @@ footer p {
 }
 
 .space-left {
-  padding-left: 70px;
+  padding-left: 80px;
+}
+
+@media (max-width: 600px) {
+  .space-left {
+    padding-left: 50px;
+  }
+}
+
+.color-contactme {
+  font-size: 1.3em;
+  color: #868686;
+  line-height: 1.7;
 }

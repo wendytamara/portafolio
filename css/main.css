@@ -213,12 +213,12 @@ footer p {
 }
 
 .space-left {
-  padding-left: 75px;
+  padding-left: 10%;
 }
 
 @media (max-width: 600px) {
   .space-left {
-    padding-left: 50px;
+    padding-right: 12%;
   }
 }
 

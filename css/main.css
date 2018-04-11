@@ -47,8 +47,8 @@
 
 .content-h {
   padding: 70px 20px;
-}  
-  
+}
+
 
 .lobster-cursiva {
   font-family: 'Lobster', cursive;
@@ -213,7 +213,7 @@ footer p {
 }
 
 .space-left {
-  padding-left: 80px;
+  padding-left: 75px;
 }
 
 @media (max-width: 600px) {

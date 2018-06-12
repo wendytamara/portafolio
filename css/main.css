@@ -7,7 +7,7 @@
 }*/
 
 .domingo {
-  background-image: url('../image/portada.jpeg');
+  background-image: url('../assets/image/portada.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
   /* filter:brightness(0.4);
@@ -63,11 +63,25 @@
 }
 
 .button-cv {
-  margin-top: 50px;
+  
   color: #44454f;
   font-size: 1.2em;
   border-bottom: 2px solid aqua;
   display: inline-block;
+}
+
+.subrayado-celeste {
+  border-bottom: 2px solid aqua;
+  display: inline-block;
+}
+
+.margin-top {
+  margin-top: 50px;
+}
+
+.container-proyect {
+  background-color: white;
+  padding: 15px 30px;
 }
 
 .button-cv:hover {
@@ -188,10 +202,9 @@ ul {
 }
 
 .herramientas {
-  /* font-family: 'Arapey', serif; */
-  margin-bottom: 50px;
-  /* border-bottom: 2px solid aqua;
-  display: inline-block; */
+  
+  margin-bottom: 20px;
+
 }
 
 .style {
@@ -200,6 +213,55 @@ ul {
 
 section-contact {
   height: 90vh;
+}
+
+.img-port {
+  width: 50px;
+}
+
+.img-icons {
+  width: 30px;
+  padding-right: 5px;
+}
+
+.btn-my2 {
+  border-radius: 0px;
+  color: #3E333F;
+  border: 2px solid #3E333F;
+  background-color: transparent;
+  transition: all .5s;
+}
+
+.btn-my2:hover{
+  color: rgb(197, 129, 154);
+    /* background-color: rgb(197, 129, 154); */
+    border: 2px solid rgb(197, 129, 154);
+  text-decoration: none;
+}
+
+.margin-tp {
+  margin-top: 100px
+}
+
+.boton {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 

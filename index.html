@@ -33,10 +33,9 @@
          <!-- Collect the nav links, forms, and other content for toggling -->
          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
            <ul class="nav navbar-nav navbar-horizontal navbar-right">
-             <li><a class="text-white strong" href="#">CONÓCEME</a></li>
-             <li><a class="color-gray" href="#">HABILIDADES</a></li>
-             <li><a class="text-white strong" href="#">PORTAFOLIO</a></li>
-             <li><a class="color-gray" href="#">CONTÁCTAME</a></li>
+             <li><a data-scroll class="color-gray strong" href="#conoceme">CONÓCEME</a></li>         
+             <li><a data-scroll class="color-gray strong" href="#portafolio">PORTAFOLIO</a></li>
+             <li><a data-scroll class="color-gray strong" href="#contactame">CONTÁCTAME</a></li>
            </ul>
          </div>
        </div>
@@ -48,15 +47,16 @@
                 <div class="bg-image text-center transform">
                     <div class="bg-h1">
                        <!-- <p class="text-white italics">HOLA, mi nombre es</p>  -->
-                     <h1 class="text-orange lobster-cursiva strong">Wendy Tamara Quispe</h1>
-                        <p class="text-white italics profession strong">Frond End Developer
-                            </p>
+                     <h1 id="name" class="text-orange lobster-cursiva strong"></h1>
+                     <br>
+                     <br>
+                     <p class="text-white italics profession strong">Frond End Developer</p>
                     </div>
                 </div>
             </div>
         </div>
 
-<section class="height-content">
+<section id="conoceme" class="height-content">
   <div class="container">
     <div class="row">
       <div class="col-xs-8 col-xs-offset-2 text-center">
@@ -81,7 +81,7 @@
 
 
 
-<section id="portfolio" class="container-fluid container-section bg-purple text-center content-h">
+<section id="portafolio" class="container-fluid container-section bg-purple text-center content-h">
   <div class="container">
     <br><br><br>
     <h2 class="lobster-cursiva color-lila-strong herramientas">Proyectos Realizados</h2>
@@ -90,7 +90,7 @@
       <div class="row bgf pb-4 pt-4 container-proyect">
         <div class="col-md-12 flex col-sm-12 col-lg-7">
           <figure class="snip1477">
-            <img class="img-portafolio img-responsive" src="https://user-images.githubusercontent.com/32303250/38159285-de47a628-346a-11e8-9338-3ccae9395395.png" alt="lab-card" />   
+            <img class="img-portafolio img-responsive img-padg" src="https://user-images.githubusercontent.com/32303250/38159285-de47a628-346a-11e8-9338-3ccae9395395.png" alt="lab-card" />   
           </figure>
         </div>
         <div class="col-md-12 col-sm-12 col-lg-5"><br>
@@ -121,7 +121,7 @@
       <div class="row bgf pb-4 pt-4 container-proyect margin-tp">
           <div class="col-md-12 flex col-sm-12 col-lg-7">
             <figure class="snip1477">
-              <img class="img-portafolio img-responsive" src="https://user-images.githubusercontent.com/32303250/41056826-fdd83cbe-698a-11e8-9591-8888d3e2c3d7.png" alt="API SWAPI" />   
+              <img class="img-portafolio img-responsive img-padg" src="https://user-images.githubusercontent.com/32303250/41056826-fdd83cbe-698a-11e8-9591-8888d3e2c3d7.png" alt="API SWAPI" />   
             </figure>
           </div>
           <div class="col-md-12 col-sm-12 col-lg-5"><br>
@@ -152,7 +152,7 @@
         <div class="row bgf pb-4 pt-4 container-proyect margin-tp">
             <div class="col-md-12 flex col-sm-12 col-lg-7">
               <figure class="snip1477">
-                <img class="img-portafolio img-responsive" src="https://raw.githubusercontent.com/wendytamara/fare-stimate/master/public/assets/images/fire-stimate.png" alt="lab-card" />   
+                <img class="img-portafolio img-responsive img-padg" src="https://raw.githubusercontent.com/wendytamara/fare-stimate/master/public/assets/images/fire-stimate.png" alt="lab-card" />   
               </figure>
             </div>
             <div class="col-md-12 col-sm-12 col-lg-5"><br>
@@ -188,7 +188,7 @@
 
 
 
-  <section class="container-fluid container-section bg-purple text-center content-h section-contact">
+  <section id="contactame" class="container-fluid container-section bg-purple text-center content-h section-contact">
       <h2 class="strong lobster-cursiva color-lila-strong">Contáctame </h2>
       <div class="row style">
       <div class="col-sm-6 col-md-4">
@@ -232,6 +232,10 @@
   src="http://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
   crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="js/smooth-scroll.min.js"></script>
+  <script src="js/app.js"></script> 
+
 </body>
 </html>

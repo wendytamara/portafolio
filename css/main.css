@@ -133,7 +133,11 @@
 
 .bg-purple {
   background-color: #edd7df;
-  height: 80vh;
+}
+
+.secionContactame {
+  height: 400px;
+
 }
 
 

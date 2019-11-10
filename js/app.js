@@ -38,7 +38,7 @@ let begin = () => {
       });
     };
   
-    writing('Wendy Tamara Quispe');
+    writing('Wendy Tamara Quispe Quispe Quispe');
     changeArrow();
     smoothAutoScroll();
     hoverImg();
